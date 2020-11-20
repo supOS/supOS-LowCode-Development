@@ -1,0 +1,33 @@
+> ## **设备点检维修 Demo APP 脚本服务**
+
+---
+
+- **常用服务参考**
+  - [常用脚本服务](/docs/DeviceInfo/ObjectService/commonJS)
+  - [内置对象服务](https://supos-project.github.io/supOS-Object-Documents/#/docs/ObjectService/Service/)
+- **当前APP页面使用脚本**
+  - 工单列表页面
+    - [条件查询](/docs/DeviceMaintenance/ObjectService/buttonSearch)
+    - [查询重置](/docs/DeviceMaintenance/ObjectService/buttonReset)
+    - [DataTable操作列渲染](/docs/DeviceMaintenance/ObjectService/dataTableOperation)
+    - [DataTable工单编号列渲染](/docs/DeviceMaintenance/ObjectService/dataTableDetail)
+    - [批量受理工单](/docs/DeviceMaintenance/ObjectService/buttonBatchDeal)
+    - [维修记录](/docs/DeviceMaintenance/ObjectService/buttonRepair)
+    - [关闭工单](/docs/DeviceMaintenance/ObjectService/buttonClose)
+  - 工单详情页面
+    - [工单信息初始化](/docs/DeviceMaintenance/ObjectService/workOrderBase)
+    - [维修记录初始化](/docs/DeviceMaintenance/ObjectService/repairRecordList)
+  - 创建工单页面
+    - [设备搜索绑定](/docs/DeviceMaintenance/ObjectService/deviceSearchBind)
+    - [提交工单](/docs/DeviceMaintenance/ObjectService/submitWorkOrder)
+  - 编辑工单页面
+    - [编辑工单数据初始化](/docs/DeviceMaintenance/ObjectService/editWorkOrderData)
+    - [修改工单提交](/docs/DeviceMaintenance/ObjectService/submitEditWorkOrder)
+  - 工单维修记录页面
+    - [维修表单内容加载](/docs/DeviceMaintenance/ObjectService/recordRepairData)
+    - [新增/编辑维修记录](/docs/DeviceMaintenance/ObjectService/submitRecordRepair)
+    - [重置维修记录](/docs/DeviceMaintenance/ObjectService/cancelRecordRepair)
+    - [维修记录表格操作列渲染](/docs/DeviceMaintenance/ObjectService/recordRepairOperation)
+  - 关闭工单页面
+    - [关闭工单数据初始化](/docs/DeviceMaintenance/ObjectService/closeWorkOrderData)
+    - [关闭工单提交](/docs/DeviceMaintenance/ObjectService/submitCloseWorkOrder)

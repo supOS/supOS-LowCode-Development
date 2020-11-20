@@ -1,0 +1,11 @@
+.sidebar li .arrowBtn {
+  width: 12px;
+  height: 8px;
+  margin-right: 4px;
+  /* transition: all .3s; */
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+.sidebar li .arrowBtn.open {
+  transform: rotate(0deg);
+}

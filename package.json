@@ -1,0 +1,19 @@
+{
+  "name": "supos-docs",
+  "version": "1.0.0",
+  "description": "supOS documents application",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve --port 38080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.supos.ai:supos/components/frontend/supos-docs.git"
+  },
+  "author": "Ames",
+  "license": "ISC"
+}
